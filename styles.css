@@ -1,3 +1,17 @@
+.logo img {
+  height: 60px;
+  width: auto;
+  float: left;
+  display: block;
+  padding: 10px;
+  object-fit: cover;
+  box-shadow: inset 0em 0em 0em rgba(0, 0, 0, 0.719);
+}
+.logo img:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .intro {
   background-color: #333;
   border: 5px solid #333;
@@ -6,12 +20,32 @@
   margin: 0 auto;
   box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.719);
 }
+.homepage {
+  padding: 50px;
+}
+p {
+  padding: 10px;
+  margin: 10px;
+}
+.main {
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  min-height: 776px;
+  margin-bottom: 45px;
+}
+.content .about img {
+  height: 500px;
+  float: left;
+  margin-right: 20px;
+}
 
 .pans-img {
   max-width: 100%;
   height: auto;
   display: block;
-
   margin: 0 auto;
 }
 .ingredients {
@@ -30,36 +64,21 @@ h1 {
 ul li {
   color: white;
 }
+
 .content img {
   border: 5px solid #333;
+}
+.content .recipes img {
   margin: 0 auto;
   display: block;
   margin-top: 20px;
 }
-.main {
-  padding: 50px;
-  border-bottom: 50px solid #333;
-}
-
-.logo img {
-  height: 60px;
-  width: auto;
-  float: left;
-  display: block;
-  padding: 10px;
-  object-fit: cover;
-  box-shadow: inset 0em 0em 0em rgba(0, 0, 0, 0.719);
-}
-.logo img:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-body,
-html {
-  background-color: white;
+body {
   margin: 0;
-  padding-top: 55px;
+}
+
+html {
+  background-color: #333;
 }
 
 * {
@@ -77,6 +96,8 @@ html {
   overflow: hidden;
   box-shadow: inset 0 -15px 15px rgba(255, 255, 255, 0.075),
     0em 1em 1em rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-bottom: 30px;
 }
 
 /* Add a black background color to the top navigation */
